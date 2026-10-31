@@ -10,7 +10,7 @@ export type CourseGoal = {
   description: string;
   id: number;
 };
-
+//TODO: Check if goal is not null
 export default function App() {
   const [goals, setGoals] = useState<CourseGoal[]>([]);
 
